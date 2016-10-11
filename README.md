@@ -8,9 +8,9 @@ This is my multi-month study plan for going from web developer (self-taught, no 
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
-This long list has been extracted and expanded from **Google's coaching notes**, so these are the things you need to know. 
-There are extra items I added at the bottom that may come up in the interview or be helpful in solving a problem. Many items are from 
-Steve Yegge's "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" and are reflected 
+This long list has been extracted and expanded from **Google's coaching notes**, so these are the things you need to know.
+There are extra items I added at the bottom that may come up in the interview or be helpful in solving a problem. Many items are from
+Steve Yegge's "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" and are reflected
 sometimes word-for-word in Google's coaching notes.
 
 ---
@@ -209,12 +209,12 @@ You need to be very comfortable in the language, and be knowledgeable. Read more
 
 You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
 
-- [] **How computers process a program:**
+- [X] **How computers process a program:**
     - [X] https://www.youtube.com/watch?v=42KTvGYQYnA
-    - [] https://www.youtube.com/watch?v=Mv2XQgpbTNE
+    - [X] https://www.youtube.com/watch?v=Mv2XQgpbTNE
 
 - [] **How floating point numbers are stored:**
-    - [] simple 8-bit: http://math.stackexchange.com/questions/301435/fractions-in-binary
+    - [X] simple 8-bit: http://math.stackexchange.com/questions/301435/fractions-in-binary
     - [] 32 bit: https://www.youtube.com/watch?v=ji3SfClm8TU
     - [] 64 bit: https://www.youtube.com/watch?v=50ZYcZebIec
 
@@ -417,7 +417,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - enqueue: O(1) (amortized, linked list and array [probing])
         - dequeue: O(1) (linked list and array)
         - empty: O(1) (linked list and array)
-    
+
 - ### Hash table
     - [] Videos:
         - [] Hashing with Chaining: https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8
@@ -426,7 +426,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - [] PyCon 2010: The Mighty Dictionary: https://www.youtube.com/watch?v=C4Kc8xzcA68
         - [] (Advanced) Randomization: Universal & Perfect Hashing: https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11
         - [] (Advanced) Perfect hashing: https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4
-    
+
     - [] Online Courses:
         - [] https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html
         - [] https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html
@@ -438,7 +438,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - [] distributed hash tables:
             - https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox
             - https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables
-    
+
     - [] implement with array using linear probing
         - hash(k, m) - m is size of hash table
         - add(key, value) - if key already exists, update value
@@ -819,7 +819,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - how is tail recursion better than not?
         - [] https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad
         - [] https://www.youtube.com/watch?v=L1jjXGfxozc
- 
+
 - ### Dynamic Programming
     - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
     - I suggest looking at many examples of DP problems until you have a solid understanding of the pattern involved.
@@ -834,7 +834,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [] Simonson: Dynamic programming II - Lecture 12: https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12
         - [] List of individual DP problems (each is short):
             https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr
-    - [] Yale Lecture notes: 
+    - [] Yale Lecture notes:
         - [] http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming
     - [] Coursera:
         - [] The RNA secondary structure problem: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem
@@ -851,7 +851,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [] Make School: More Probability and Markov Chains: https://www.youtube.com/watch?v=dNaJg-mLobQ
     - [] Khan Academy:
         - Course layout:
-            - [] https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic 
+            - [] https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic
         - Just the videos - 41 (each are simple and each are short):
             - [] https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19
 
@@ -927,7 +927,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [] Mutex in Python: https://www.youtube.com/watch?v=0zaPs8OtyKY
 
 
-    Scalability and System Design are very large topics with many topics and resources, since there is a lot to consider 
+    Scalability and System Design are very large topics with many topics and resources, since there is a lot to consider
     when designing a software/hardware system that can scale. Expect to spend quite a bit of time on this.
 
 - ### System Design, Scalability, Data Handling
@@ -955,14 +955,14 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [] How long does it take to make a context switch?: http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html
     - [] Transactions Across Datacenters: https://www.youtube.com/watch?v=srOgpXECblk
     - [] A plain english introduction to CAP Theorem: http://ksat.me/a-plain-english-introduction-to-cap-theorem/
-    - [] Paxos Consensus algorithm: 
+    - [] Paxos Consensus algorithm:
         - short video: https://www.youtube.com/watch?v=s8JqcZtvnsM
         - extended video with use case and multi-paxos: https://www.youtube.com/watch?v=JEpsBg0AO6o
         - paper: http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf
     - [] Consistent Hashing: http://www.tom-e-white.com/2007/11/consistent-hashing.html
     - [] NoSQL Patterns: http://horicky.blogspot.com/2009/11/nosql-patterns.html
     - [] Optional: UML 2.0 Series: https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc
-    - [] OOSE: Software Dev Using UML and Java (21 videos): 
+    - [] OOSE: Software Dev Using UML and Java (21 videos):
         - Can skip this if you have a great grasp of OO and OO design practices.
         - https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO
     - [] SOLID OOP Principles:
@@ -991,7 +991,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
             - more flavor: http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en
     - [] Scalability:
         - [] Great overview: https://www.youtube.com/watch?v=-W9F__D3oY4
-        - [] Short series: 
+        - [] Short series:
             - http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones
             - http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database
             - http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache
@@ -1114,7 +1114,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [] 2014: Machine Learning: The High-Interest Credit Card of Technical Debt: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf
     - [] 2015: Continuous Pipelines at Google: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf
     - [] 2015: High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf
-    - [] 2015: TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems: http://download.tensorflow.org/paper/whitepaper2015.pdf 
+    - [] 2015: TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems: http://download.tensorflow.org/paper/whitepaper2015.pdf
     - [] 2015: How Developers Search for Code: A Case Study: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf
     - [] 2016: Borg, Omega, and Kubernetes: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf
 
@@ -1229,7 +1229,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 ---
 
-## Final Review 
+## Final Review
 
     This section will have shorter videos that can you watch pretty quickly to review most of the important concepts.
     It's nice if you want a refresher often.
@@ -1245,7 +1245,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 #### Sorts:
 
 - [ ] Merge Sort: https://www.youtube.com/watch?v=GCae1WNvnZM
-   
+
 
 ## Books
 
@@ -1275,7 +1275,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/
     - If you see people reference "The Google Resume", it was a book replaced by "Cracking the Coding Interview".
 
-### Additional books 
+### Additional books
 
     These were not suggested by Google but I added because I needed the background knowledge
 
@@ -1298,7 +1298,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 - [ ] Introduction to Algorithms
     - https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844
     - Half.com is a great resource for textbooks at good prices.
-    
+
 - [ ] Elements of Programming Interviews
     - https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836
     - all code is in C++, if you're looking to use C++ in your interview
@@ -1311,7 +1311,7 @@ Take coding challenges every day, as many as you can.
 
 - [] Great intro (copied from System Design section): Algorithm design: http://www.hiredintech.com/algorithm-design/
 - [ ] How to Find a Solution: https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/
-- [ ] How to Dissect a Topcoder Problem Statement: https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/ 
+- [ ] How to Dissect a Topcoder Problem Statement: https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/
 - [ ] Mathematics for Topcoders: https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/
 - [ ] Dynamic Programming – From Novice to Advanced: https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/
 
@@ -1345,7 +1345,7 @@ Take coding challenges every day, as many as you can.
     Think of about 20 interview questions you'll get, along the lines of the items below.
     Have 2-3 answers for each
     Have a story, not just data, about something you accomplished
-    
+
 - Why do you want this job?
 - What's a tough problem you've solved?
 - Biggest challenges faced?
@@ -1388,7 +1388,7 @@ Take coding challenges every day, as many as you can.
         - [] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation
         - [] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation
         - [] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through
-    - See more in MIT 6.050J Information and Entropy series below. 
+    - See more in MIT 6.050J Information and Entropy series below.
 
 - ### Parity & Hamming Code
     - [] Intro: https://www.youtube.com/watch?v=q-3BctoUpHE
@@ -1413,14 +1413,14 @@ Take coding challenges every day, as many as you can.
 
 - ### Compression
     - make sure to watch information theory videos first
-    - [] Computerphile: 
+    - [] Computerphile:
         - [] Compression: https://www.youtube.com/watch?v=Lto-ajuqW3w
-        - [] Entropy in Compression: https://www.youtube.com/watch?v=M5c_RFKVkko 
+        - [] Entropy in Compression: https://www.youtube.com/watch?v=M5c_RFKVkko
         - [] Upside Down Trees (Huffman Trees): https://www.youtube.com/watch?v=umTbivyJoiI
         - [] EXTRA BITS/TRITS - Huffman Trees: https://www.youtube.com/watch?v=DV8efuB3h2g
         - [] Elegant Compression in Text (The LZ 77 Method): https://www.youtube.com/watch?v=goOa3DGezUA
         - [] Text Compression Meets Probabilities: https://www.youtube.com/watch?v=cCDCfoHTsaU
-    - [] Compressor Head videos: 
+    - [] Compressor Head videos:
         - https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H
     - [] (optional) Google Developers Live: GZIP is not enough!: https://www.youtube.com/watch?v=whGwm0Lky2s
 
@@ -1534,13 +1534,13 @@ Take coding challenges every day, as many as you can.
 - ### Math for Fast Processing
     - [] Integer Arithmetic, Karatsuba Multiplication: https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
     - [] The Chinese Remainder Theorem (used in cryptography): https://www.youtube.com/watch?v=ru7mWZJlRQg
-    
+
 - ### Treap
     - Combination of a binary search tree and a heap
     - [] Wikipedia: https://en.wikipedia.org/wiki/Treap
     - [] https://www.youtube.com/watch?v=6podLUYinH8
     - [] Applications in set operations: https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf
-    
+
 - ### Linear Programming
     - [] https://www.youtube.com/watch?v=M4K6HYLHREQ
     - [] Finding minimum cost: https://www.youtube.com/watch?v=2ACJ9ewUC6U
@@ -1656,11 +1656,11 @@ Sit back and enjoy. "netflix and skill" :P
 
 - [ ] UC Berkeley 61C: Machine Structures (26 videos):
     - https://www.youtube.com/watch?v=gJJeUFyuvvg&list=PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_
-    
-- [ ] OOSE: Software Dev Using UML and Java (21 videos): 
+
+- [ ] OOSE: Software Dev Using UML and Java (21 videos):
     - https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO
 
-- [ ] UC Berkeley CS 152: Computer Architecture and Engineering (20 videos): 
+- [ ] UC Berkeley CS 152: Computer Architecture and Engineering (20 videos):
     - https://www.youtube.com/watch?v=UH0QYvtP7Rk&index=20&list=PLkFD6_40KJIwEiwQx1dACXwh-2Fuo32qr
 
 - [ ] MIT 6.004: Computation Structures (49 videos):
@@ -1700,7 +1700,7 @@ Sit back and enjoy. "netflix and skill" :P
 - [ ] Introduction to Cryptography:
     - https://www.youtube.com/watch?v=2aHkqB2-46k&feature=youtu.be
     - more in series (not in order): https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg
-    
+
 - [ ] Mining Massive Datasets - Stanford University (94 videos):
     - https://www.youtube.com/playlist?list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV
 
